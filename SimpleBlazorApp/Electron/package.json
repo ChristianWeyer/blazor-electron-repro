@@ -1,0 +1,22 @@
+{
+	"name": "myapp",
+	"version": "0.0.1",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "mocha",
+		"build": "npx electron-packager ."
+	},
+	"keywords": [],
+	"author": "Christian Weyer <christian.weyer@thinktecture.com>",
+	"license": "MIT",
+	"devDependencies": {
+		"electron": "^7.0.0",
+		"electron-packager": "^14.2.1",
+		"mocha": "^6.2.2",
+		"spectron": "^9.0.0"
+	},
+	"dependencies": {
+		"devtron": "^1.4.0"
+	}
+}
